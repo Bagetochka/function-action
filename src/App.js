@@ -80,7 +80,7 @@ function App() {
     if (actionA === 1 && actionB === 2) {
       setText("Функция ищет...");
       setTimeout(() => {
-        setText("Функция нашла!");
+        setText("Бедный Эдик...");
         setTimeout(() => setSpinning(true), 1000);
       }, 3000)
     }
